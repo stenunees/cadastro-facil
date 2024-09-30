@@ -75,5 +75,4 @@ A aplicação possui um endpoint API para cadastrar usuários:
         "message": "Não foi possível cadastrar."
       }
       ```
-```
 
