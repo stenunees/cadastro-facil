@@ -1,5 +1,5 @@
 
-```markdown
+
 # Cadastro Fácil
 
 Cadastro Fácil é uma aplicação fullstack que permite aos usuários se cadastrarem fornecendo informações como nome, email, telefone e uma mensagem. Esta aplicação utiliza o Node.js para o backend e MongoDB para armazenamento de dados.
@@ -19,7 +19,7 @@ Cadastro Fácil é uma aplicação fullstack que permite aos usuários se cadast
    ```bash
    git clone https://github.com/stenunees/cadastro-facil.git
    cd cadastro-facil
-   ```
+
 
 2. **Instale as dependências do backend**:
    ```bash
