@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Fácil</title>
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light d-flex flex-column align-items-center">
+  <h1 class="mt-5">Cadastro Fácil</h1>
+  
+  <form id="meuForm" class="bg-white p-4 rounded shadow mt-3" style="width: 400px;">
+    <div class="form-group">
+      <label for="nome">Seu nome</label>
+      <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Seu e-mail</label>
+      <input type="email" id="email" class="form-control" placeholder="Seu e-mail" required>
+    </div>
+    <div class="form-group">
+      <label for="telefone">Seu telefone</label>
+      <input type="tel" id="telefone" class="form-control" placeholder="Seu telefone" required>
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" class="form-control" rows="3" placeholder="Escreva sua mensagem" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success btn-block">Enviar</button>
+  </form>
+
+ 
+  <div id="resultado" class="mt-3" style="width: 400px;"></div>
+
+  <footer class="mt-5">
+    <p class="text-muted">Desenvolvido por Stephanie Nunes 🌟</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

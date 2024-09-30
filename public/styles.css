@@ -1,0 +1,21 @@
+body {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  form:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  input::placeholder {
+    color: #999;
+  }
+  
